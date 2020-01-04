@@ -1,0 +1,94 @@
+    body {
+        background-image: url(banniere3.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+    
+    main div article {
+        width: 27%;
+    }
+    
+    a img {
+        width: 100px;
+        height: 100px;
+    }
+    
+    #picture {
+        border: solid;
+        border-radius: 180px;
+        position: absolute;
+        height: 115px;
+        width: 115px;
+        right: 2%;
+        top: 18%;
+    }
+    
+    header h2 {
+        color: gray;
+        font-style: italic;
+    }
+    
+    h2 {
+        border-bottom: solid 2px;
+        height: 1.8em;
+        font-weight: bold;
+    }
+    
+    header {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #AC {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    #comp {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .rond {
+        border-top: solid 12px;
+        border-bottom: solid 12px;
+        border-left: solid 25px;
+        border-right: solid 25px;
+        border-radius: 180px;
+        margin-right: 0.5em;
+        color: transparent;
+        background-image: url(banniere2.jpg);
+        background-size: 200px;
+        background-attachment: fixed;
+    }
+    
+    ul {
+        padding-left: 0;
+    }
+    
+    p {
+        font-size: 1.2em;
+    }
+    
+    li {
+        font-weight: bold;
+        font-size: 1.4em;
+    }
+    
+    span {
+        color: blue;
+    }
+    
+    #comp1 {
+        margin-right: 2em;
+    }
+    
+    footer {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    footer ul {
+        list-style: none;
+    }
