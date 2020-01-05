@@ -1,104 +1,133 @@
-    body {
-        background-image: url(img/banniere3.jpg);
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
+body {
+    background-image: url(img/banniere3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+main div article {
+    width: 27%;
+}
+
+a {
+    width: 80px;
+    height: 73px;
+}
+
+a img {
+    width: 80px;
+    height: 73px;
+}
+
+#picture {
+    border: solid;
+    border-radius: 180px;
+    position: absolute;
+    height: 115px;
+    width: 115px;
+    right: 2em;
+    top: 5em;
+}
+
+header h2 {
+    color: gray;
+    font-style: italic;
+}
+
+h2 {
+    border-bottom: solid 2px;
+    height: 1.8em;
+    font-weight: bold;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+}
+
+#AC {
+    display: flex;
+    justify-content: space-between;
+}
+
+#competences {
+    margin-right: 0.5em;
+}
+
+#comp {
+    display: flex;
+    flex-direction: row;
+    margin-right: 2em;
+}
+
+.rond {
+    border-top: solid 12px;
+    border-bottom: solid 12px;
+    border-left: solid 25px;
+    border-right: solid 25px;
+    border-radius: 180px;
+    margin-right: 0.5em;
+    color: transparent;
+    background-image: url(img/banniere2.jpg);
+    background-size: 200px;
+    background-attachment: fixed;
+}
+
+ul {
+    padding-left: 0;
+}
+
+.special {
+    font-weight: normal;
+    font-size: 1.3em;
+}
+
+p {
+    font-size: 1.3em;
+}
+
+li {
+    font-weight: bold;
+    font-size: 1.4em;
+}
+
+span {
+    color: blue;
+}
+
+#comp1 {
+    margin-right: 2em;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer ul {
+    list-style: none;
+}
+
+@media screen and (max-width:1024px) {
+    #contact {
+        margin-left: 1em;
     }
-    
-    main div article {
-        width: 27%;
-    }
-    
-    a {
-        width: 80px;
-        height: 73px;
-    }
-    
-    a img {
-        width: 80px;
-        height: 73px;
-    }
-    
-    #picture {
-        border: solid;
-        border-radius: 180px;
-        position: absolute;
-        height: 115px;
-        width: 115px;
-        right: 2em;
-        top: 5em;
-    }
-    
-    header h2 {
-        color: gray;
-        font-style: italic;
-    }
-    
-    h2 {
-        border-bottom: solid 2px;
-        height: 1.8em;
-        font-weight: bold;
-    }
-    
-    header {
-        display: flex;
-        flex-direction: column;
-    }
-    
-    #AC {
-        display: flex;
-        justify-content: space-between;
-    }
-    
-    #competences {
-        margin-right: 0.5em;
-    }
-    
-    #comp {
-        display: flex;
-        flex-direction: row;
-        margin-right: 2em;
-    }
-    
-    .rond {
-        border-top: solid 12px;
-        border-bottom: solid 12px;
-        border-left: solid 25px;
-        border-right: solid 25px;
-        border-radius: 180px;
-        margin-right: 0.5em;
-        color: transparent;
-        background-image: url(img/banniere2.jpg);
-        background-size: 200px;
-        background-attachment: fixed;
-    }
-    
-    ul {
-        padding-left: 0;
-    }
-    
+}
+
+@media screen and (max-width:768px) {
     p {
+        font-size: 1em;
+    }
+    #AC article {
+        width: 45%;
+    }
+    h2 {
         font-size: 1.2em;
     }
-    
     li {
-        font-weight: bold;
-        font-size: 1.4em;
+        font-size: 1em;
     }
-    
-    span {
-        color: blue;
+    .special {
+        font-size: 1em;
     }
-    
-    #comp1 {
-        margin-right: 2em;
-    }
-    
-    footer {
-        display: flex;
-        justify-content: space-between;
-    }
-    
-    footer ul {
-        list-style: none;
-    }
+}

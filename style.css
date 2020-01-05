@@ -69,6 +69,7 @@
         text-align: center;
         margin-left: auto;
         margin-right: auto;
+        padding-right: 1em;
     }
     
     main li img {
@@ -222,5 +223,9 @@
         }
         footer nav {
             padding-left: 0;
+        }
+        footer a img {
+            width: 40px;
+            height: 40px;
         }
     }
