@@ -1,5 +1,5 @@
     body {
-        background-image: url(banniere3.jpg);
+        background-image: url(img/banniere3.jpg);
         background-size: cover;
         background-repeat: no-repeat;
         background-attachment: fixed;
@@ -9,9 +9,14 @@
         width: 27%;
     }
     
+    a {
+        width: 80px;
+        height: 73px;
+    }
+    
     a img {
-        width: 100px;
-        height: 100px;
+        width: 80px;
+        height: 73px;
     }
     
     #picture {
@@ -20,8 +25,8 @@
         position: absolute;
         height: 115px;
         width: 115px;
-        right: 2%;
-        top: 18%;
+        right: 2em;
+        top: 5em;
     }
     
     header h2 {
@@ -45,9 +50,14 @@
         justify-content: space-between;
     }
     
+    #competences {
+        margin-right: 0.5em;
+    }
+    
     #comp {
         display: flex;
         flex-direction: row;
+        margin-right: 2em;
     }
     
     .rond {
@@ -58,7 +68,7 @@
         border-radius: 180px;
         margin-right: 0.5em;
         color: transparent;
-        background-image: url(banniere2.jpg);
+        background-image: url(img/banniere2.jpg);
         background-size: 200px;
         background-attachment: fixed;
     }
